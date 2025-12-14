@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap');
+
+.col-sm-4 p, .col-sm-3 p, .col-sm-9 p,.col-sm-8 p, .col-sm-2 i{
+	      
+	height: auto;
+	width: 100%;
+	margin: 5px;
+	padding: 30px;
+	color: black;
+	text-align: left;
+}
+
+body{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: black;
+	margin: 0;
+}
+
+ .logo{
+	max-width: 270px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+header{
+	text-align: center;
+}
+
+.instructions{
+	text-align: center;
+	font-weight: bold;
+}
+.game-controls{
+	padding-top: 20px;
+	text-align: center;
+}
+/* Website Links except the nav */
+
+.home-hero{
+	background-image: url(images/bg.jpg);
+	background-size: cover;
+}
+
+.home-hero h1{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px black;
+	text-align:center;
+	padding: 20px 0;
+	margin: 0;
+}
+
+nav{
+	background-color: mintcream;
+	border-top: 3px dotted 	black;
+	border-bottom: 3px dotted black;
+	padding: 5px;
+}
+
+h1, h2, h3{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: black;
+}
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 8px 0px;
+	padding: 0;
+}
+nav li {
+	display: inline;
+	padding: 5px;
+}
+nav a:link { 
+	color :black;
+	text-decoration: none;
+}
+nav a:visited { 
+	color :violet;
+}
+nav a:hover { 
+	color :blue;
+}
+nav a:active { 
+	color :purple;
+}
+
+.resume{
+	max-width: 5in;
+	margin: 0 auto;
+	padding: 1rem;
+	line-height: 1.4;
+}
+main{
+	max-width: 1000px;
+	margin: 10px auto;
+	padding: 10px;
+	line-height:1.6rem
+}
+main h1{
+	margin: 20px 0;
+	font-weight: bold;
+}
+.webdisc{
+	font-size: 24px;
+	line-height: 30px;
+}
+.webtext{
+	
+	align-content: center;
+}
+.websites{
+	max-width: 400px;
+	height: auto;
+	border: 8px ridge #717171;
+	border-radius: 9px;
+}
+.website-rows{
+	margin-top: 50px;
+}
+.home-photo{
+	float:right;
+  	border-radius: 10px;
+	max-width:45%;
+	height:auto;
+}
+
+.row2{
+	margin-top: 50px;
+}
+.col-sm-4 {
+    text-align: center;
+}
+
+.col-sm-4 i {
+    font-size: 3.5em;
+    display: inline-block;
+}
+.icons{
+	transition: 0.3s;
+	color: #333333;
+}
+
+.icons:hover{
+	transform: scale(1.1);
+	color: black;
+}
+footer .lower-footer{
+	text-align: center;
+	padding:10px 0;
+
+}
+footer .upper-footer .col-sm-6{
+    text-align: left;
+    padding: 20px;
+
+}
+footer .upper-footer {
+    background-color: #333333;
+    padding: 40px 0;
+}
+
+footer h3, footer p{
+	color: white;
+}
+
+footer .upper-footer .row {
+
+    background-color: transparent;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+footer .fa {
+    font-size: 1.2em;
+    padding-right: 5px;
+    color: white;
+}
+
+footer a:link{
+    color: white;
+}
+footer a:active{ 
+	color :purple;
+}
+footer a:hover{
+    color: blue;
+}
+footer a:visited{
+    color: violet;
+}
+
+ /*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+
+ /* JavaScript Game changes for mobile */
+.mobile{
+	display:none;
+}
+@media only screen and (max-width: 768px){
+	.desktop{
+	display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
